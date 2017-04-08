@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server",
-    "start server": "NODE_ENV=development nodemon ./src/server/index.js --exec babel-node"
+    "start-app": "webpack-dev-server",
+    "start-server": "NODE_ENV=development nodemon ./src/server/index.js --exec babel-node"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -32,6 +32,9 @@
     "express-graphql": "^0.6.4",
     "graphql": "^0.9.2",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-addons-css-transition-group": "^15.5.1",
+    "react-addons-transition-group": "^15.5.1",
+    "react-dom": "^15.4.2",
+    "reactstrap": "^4.5.0"
   }
 }
