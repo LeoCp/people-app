@@ -1,9 +1,9 @@
 import React, { Component, PropTypes } from 'react';
 
-const ModalPerson = ({ isOpenModal, toggle }) => {
+const ModalPerson = ({ title ,isOpenModal, toggle }) => {
     return(
       <Modal isOpen={this.state.modal} toggle={this.toggle} >
-        <ModalHeader toggle={this.toggle}>Create people</ModalHeader>
+        <ModalHeader toggle={this.toggle}>{title}</ModalHeader>
         <ModalBody>
           <form>
             <div className="form-group">
